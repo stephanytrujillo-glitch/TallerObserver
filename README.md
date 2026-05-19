@@ -197,3 +197,10 @@ Al terminar las misiones, se creará un issue final de calificación. Ejecuta ma
 ## Autores
 
 - Reemplaza esta línea con tu nombre, grupo, curso o rol.
+
+## Comandos clave (referencia)
+
+Para activar el entorno virtual en Linux o macOS se usa `source .venv/bin/activate`.
+Para activarlo en Windows se usa `.venv\Scripts\activate`.
+Para instalar las dependencias se usa `pip install -r requirements.txt`.
+ 
