@@ -29,7 +29,43 @@ cd NOMBRE_DEL_REPOSITORIO
 git status
 ```
 
-Después de clonar el repositorio, completa esta sección durante la primera misión con los comandos para crear, activar y preparar el entorno virtual.
+## Crear el entorno virtual
+
+Primero clona tu copia del repositorio y entra a la carpeta del proyecto:
+
+```bash
+git clone https://github.com/stephanytrujillo-glitch/TallerObserver.git
+cd TallerObserver
+git status
+```
+
+Crea el entorno virtual dentro de la carpeta del proyecto:
+
+```bash
+python -m venv .venv
+```
+
+Activa el entorno virtual según tu sistema operativo:
+
+```bash
+# Windows (PowerShell)
+.venv\Scripts\activate
+
+# Linux / macOS
+source .venv/bin/activate
+```
+
+Cuando el entorno esté activo verás el prefijo `(.venv)` en tu terminal. Instala las dependencias del proyecto:
+
+```bash
+pip install -r requirements.txt
+```
+
+Para desactivar el entorno virtual cuando termines de trabajar:
+
+```bash
+deactivate
+```
 
 ## Estructura esperada
 
