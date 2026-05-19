@@ -21,15 +21,7 @@ El workflow **Iniciar práctica** también puede ejecutarse con el primer `push`
 
 ## Crear el entorno virtual
 
-Primero clona tu copia del repositorio y entra a la carpeta del proyecto:
-
-```bash
-git clone https://github.com/TU_USUARIO/NOMBRE_DEL_REPOSITORIO.git
-cd NOMBRE_DEL_REPOSITORIO
-git status
-```
-
-## Crear el entorno virtual
+## Instalacion
 
 Primero clona tu copia del repositorio y entra a la carpeta del proyecto:
 
@@ -42,20 +34,26 @@ git status
 Crea el entorno virtual dentro de la carpeta del proyecto:
 
 ```bash
+python3 -m venv .venv
+```
+
+En Windows también puedes usar:
+
+```bash
 python -m venv .venv
 ```
 
 Activa el entorno virtual según tu sistema operativo:
 
 ```bash
-# Windows (PowerShell)
-.venv\Scripts\activate
-
 # Linux / macOS
 source .venv/bin/activate
+
+# Windows (PowerShell)
+.venv\Scripts\activate
 ```
 
-Cuando el entorno esté activo verás el prefijo `(.venv)` en tu terminal. Instala las dependencias del proyecto:
+Cuando el entorno este activo veras el prefijo `(.venv)` en tu terminal. Instala las dependencias del proyecto:
 
 ```bash
 pip install -r requirements.txt
