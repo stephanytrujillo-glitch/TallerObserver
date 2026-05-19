@@ -21,6 +21,8 @@ El workflow **Iniciar práctica** también puede ejecutarse con el primer `push`
 
 ## Crear el entorno virtual
 
+Para instalar el proyecto ejecuta `python3 -m venv .venv`, luego activa con `source .venv/bin/activate` o `.venv\Scripts\activate` y finalmente `pip install -r requirements.txt` para las dependencias. 
+
 ## Instalacion
 
 Primero clona tu copia del repositorio y entra a la carpeta del proyecto:
