@@ -198,7 +198,7 @@ Al terminar las misiones, se creará un issue final de calificación. Ejecuta ma
 
 ## Autores
 
-- Reemplaza esta línea con tu nombre, grupo, curso o rol.
+- Stephany Trujillo Murillo. 
 
 ## Comandos clave (referencia)
 
